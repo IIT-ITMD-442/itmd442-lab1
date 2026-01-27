@@ -61,8 +61,8 @@ nav {
     width: auto;
     align-items: center;
     padding: 22px;
-    color: #7248B9;
-    border-bottom: 2px solid;
+    color: #990ffa;
+    border-bottom: 2px solid #ead4ff;;
 }
 
 nav .spacer {
@@ -94,7 +94,10 @@ section .intro {
 }
 
 section .introimg {
-    flex:0 1 250px;
+    flex:0 1 100px;
+    height: 100px;
+    border-radius: 10px;
+
 }
 
 .skills {
@@ -125,7 +128,7 @@ section .introimg {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    background-color: grey;
+    background-color: #ead4ff;
 }
 
 .aboutblurb {
@@ -147,5 +150,18 @@ section .introimg {
 }
 
 input, textarea {
-    width: 200px;
+    width: 400px;
+    padding: 16px;
+}
+
+button {
+    padding: 8px;
+    background-color: #990ffa;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    text-decoration: underline;
 }
