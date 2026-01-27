@@ -59,7 +59,7 @@ nav {
     display: flex;
     gap: 16px;
     width: auto;
-    align-items: end;
+    align-items: center;
     padding: 22px;
     color: #990ffa;
     border-bottom: 2px solid #ead4ff;;
