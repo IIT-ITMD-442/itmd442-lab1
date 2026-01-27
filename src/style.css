@@ -59,7 +59,7 @@ nav {
     display: flex;
     gap: 16px;
     width: auto;
-    align-items: center;
+    align-items: end;
     padding: 22px;
     color: #990ffa;
     border-bottom: 2px solid #ead4ff;;
@@ -67,6 +67,11 @@ nav {
 
 nav .spacer {
     flex: 1 1 auto;
+}
+
+.navimg {
+    width: 40px;
+    height: 40px;
 }
 
 img {
