@@ -1,6 +1,40 @@
-body {
-    margin: 150px;
-    padding: 16px; 
-    height: 100vh;;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
+main {
+    height: 100vh;
+    padding: 100px;
+    background-color: #f7edffff;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    width: auto;
+    align-items: center;
+    padding: 22px;
+    color: #7248B9;
+    border-bottom: 2px solid;
+}
+
+nav .spacer {
+    flex: 1 1 auto;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+ul a {
+    text-decoration: none;
+}
