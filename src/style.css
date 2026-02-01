@@ -165,8 +165,7 @@ ul a {
 }
 
 input, textarea {
-    min-width: 250px;
-    max-width: 400px;
+    min-width: 400px;
     padding: 16px;
 }
 
@@ -203,5 +202,9 @@ input[type=submit] {
 
     .features {
         padding: 0 50px;
+    }
+
+    input, textarea {
+        min-width: 250px;
     }
 }
