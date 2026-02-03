@@ -60,21 +60,22 @@ nav {
     gap: 16px;
     width: auto;
     align-items: center;
-    padding: 22px;
+    padding: 5px 22px;
     color: #990ffa;
-    border-bottom: 2px solid #ead4ff;;
+    border-bottom: 2px solid black;
 }
 
 nav .spacer {
     flex: 1 1 auto;
 }
 
-nav img {
-    width: 200px;
+.logo {
+    width: 100px;
 }
 
 .navimg {
     max-width: 40px;
+    display: block;
 }
 
 img {
