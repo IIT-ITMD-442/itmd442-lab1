@@ -110,7 +110,8 @@ ul a {
 .introimg {
     flex: 0 0 auto;
     max-width: 250px;
-    border-radius: 10px;
+    border-radius: 200px;
+    border: solid 2px purple;
 }
 
 .skills {
